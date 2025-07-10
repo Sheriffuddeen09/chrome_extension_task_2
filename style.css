@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  width: 200px;
+}
+button {
+  padding: 8px 12px;
+  margin-top: 10px;
+  color: white;
+  border: none; 
+  background-color: black;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: rgb(108, 247, 108);
+  color: black;
+}
+.h2{
+  text-align: center;
+  padding: 10px;
+}
