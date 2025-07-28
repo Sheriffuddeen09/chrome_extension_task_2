@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <title>Load Title</title>
+  <title>LinkedIn Scraper</title>
+ <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h2>Tab Title Extension</h2>
-  <button id="get-title">Get Tab Title</button>
-  <p id="title-output"></p>
+  <h3>Enter LinkedIn Profile Links (one per line):</h3>
+  <!-- <button id="delete-all">Delete All Profiles</button> -->
+  <textarea id="links"></textarea>
+  <button id="start">Start Scraping</button>
+  <div id="status"></div>
   <script src="popup.js"></script>
 </body>
-
 </html>
